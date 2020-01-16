@@ -1,6 +1,14 @@
 # Cubik
 
-A C++ tensor library with built-in transparency for CPU and GPU, based on Eigen and cuBlas.
+A C++ tensor library with built-in transparency for CPU and GPU, based on:
+
+- [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page)
+- [Intel MKL](https://software.intel.com/en-us/mkl)
+- [Intel MKL-DNN](https://github.com/intel/mkl-dnn)
+- [NVIDIA CUDA](https://developer.nvidia.com/cuda-zone)
+- [NVIDIA cuBlas](https://docs.nvidia.com/cuda/cublas/index.html)
+- [NVIDIA cuDNN](https://developer.nvidia.com/cudnn)
+
 
 ## Why?
 
