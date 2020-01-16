@@ -1,8 +1,8 @@
 # Cubik
 
-A C++ n-dimensional tensor library with built-in transparency for CPU and GPU. 
+A C++ tensor library with built-in transparency for CPU and GPU. 
 
-Cubik uses [NumPy](https://numpy.org/) as a reference library to define its own methods but relying on highly-optimized libraries such as:
+Cubik is inspired by [NumPy](https://numpy.org/) when it comes to naming convention, but we rely on highly-optimized libraries such as:
 
 - [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page)
 - [Intel MKL](https://software.intel.com/en-us/mkl)
@@ -70,7 +70,7 @@ If you have CUDA installed, you can build Cubik with GPU support by adding `-DBA
 
 #### GPU (cuDNN) support
 
-Some of Cubik's functionality (e.g. conv2d) depends on the [NVIDIA cuDNN libraries](https://developer.nvidia.com/cudnn). `
+Some of Cubik's functionality (e.g. conv2d) depends on the [NVIDIA cuDNN libraries](https://developer.nvidia.com/cudnn).
 If CMake is unable to find cuDNN automatically, try setting CUDNN_ROOT, such as `-DCUDNN_ROOT="/path/to/CUDNN"` 
 
 #### CPU (MKL) support
@@ -78,6 +78,7 @@ If CMake is unable to find cuDNN automatically, try setting CUDNN_ROOT, such as 
 Cubik can leverage Intel's MKL library to speed up computation on the CPU. 
 
 To use MKL, include the following cmake option: 
+
 ```
 -DMKL=TRUE
 ```
@@ -100,7 +101,7 @@ If CMake is unable to find Eigen3 automatically, try setting `EIGEN3_INCLUDE_DIR
 ```
 
 
-## Why?
+## Why Cubik?
 
 When I started to work on the [EDDL](https://github.com/deephealthproject/eddl), I realized that most of the C++ libraries for linear algebra were designed for 1 and 2D tensors. Additionally, most of them didn't offer hardware transparency.
 
