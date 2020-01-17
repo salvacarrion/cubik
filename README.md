@@ -56,11 +56,11 @@ Build from source:
 mkdir build
 cd build
 cmake ..
-make -j$(nproc)
+make -j$(num_cores)
 ```
 
 > Note: These steps are for Linux and Mac OS
-
+> To known the number of logical cores type: `nproc` (linux) or `sysctl -n hw.logicalcpu` (mac os)
 
 ### Backend support
 
