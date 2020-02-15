@@ -1,5 +1,7 @@
 # Cubik
 
+## CURRENTLY DEVELOP AT THE [EDDL LIBRARY](https://github.com/deephealthproject/eddl)
+
 A C++ tensor library with built-in transparency for CPU and GPU. 
 
 Cubik is inspired by [NumPy](https://numpy.org/) when it comes to naming convention, but we rely on highly-optimized libraries such as:
