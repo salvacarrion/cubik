@@ -1,6 +1,6 @@
 # Cubik
 
-## CURRENTLY DEVELOP AT THE [EDDL LIBRARY](https://github.com/deephealthproject/eddl)
+## CURRENTLY BEING DEVELOPED IN THE [EDDL LIBRARY](https://github.com/deephealthproject/eddl)
 
 A C++ tensor library with built-in transparency for CPU and GPU. 
 
